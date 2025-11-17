@@ -13,7 +13,6 @@ export default function StreamingLinks({ style = 'neon' }: StreamingLinksProps) 
   const links = [
     { name: 'Spotify', url: siteConfig.socialLinks.spotify, icon: FaSpotify, color: 'from-green-500 to-green-600', bgColor: 'bg-green-600', hoverColor: 'hover:bg-green-700' },
     { name: 'Apple Music', url: siteConfig.socialLinks.appleMusic, icon: FaApple, color: 'from-pink-500 to-pink-600', bgColor: 'bg-pink-600', hoverColor: 'hover:bg-pink-700' },
-    { name: 'SoundCloud', url: siteConfig.socialLinks.soundcloud, icon: FaSoundcloud, color: 'from-orange-500 to-orange-600', bgColor: 'bg-orange-600', hoverColor: 'hover:bg-orange-700' },
     { name: 'YouTube', url: siteConfig.socialLinks.youtube, icon: FaYoutube, color: 'from-red-500 to-red-600', bgColor: 'bg-red-600', hoverColor: 'hover:bg-red-700' },
     { name: 'Instagram', url: siteConfig.socialLinks.instagram, icon: FaInstagram, color: 'from-purple-500 via-pink-500 to-orange-500', bgColor: 'bg-gradient-to-r from-purple-600 to-pink-600', hoverColor: 'hover:from-purple-700 hover:to-pink-700' },
   ]

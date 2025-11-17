@@ -91,15 +91,6 @@ export default function BeatsPage() {
               <span className="font-semibold">Apple Music</span>
             </a>
             <a
-              href={siteConfig.socialLinks.soundcloud}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-orange-600 hover:bg-orange-700 px-6 py-3 rounded-full transition-colors"
-            >
-              <FaSoundcloud size={24} />
-              <span className="font-semibold">SoundCloud</span>
-            </a>
-            <a
               href={siteConfig.socialLinks.youtube}
               target="_blank"
               rel="noopener noreferrer"
